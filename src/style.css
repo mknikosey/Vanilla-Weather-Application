@@ -1,0 +1,70 @@
+
+h1 {
+    padding-left: 60px;
+    color: #cb3737;
+    padding-top: 40px;
+    font-family: milestone free version;
+    
+}
+
+h2 {
+    font-family: milestone free version;
+    padding-top: 40px;
+    color: #cb3737;
+    font-size: 40px;
+}
+
+h3 {
+
+    color: #ccafaf;
+    font-size: 20px;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+h4 {
+    color:  #cb3737;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 80px;
+    font-family: milestone free version;
+}
+
+ul{
+    padding-top: 5px;
+    color: #ccafaf;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+small {
+    max-width: 30px;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.units {
+    font-size: 20px;
+    font-family: 'Tenor Sans', sans-serif;
+    
+}
+
+.weather-app {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 400px;
+    border: 1px solid #e3eeff;
+    border-radius:10px;
+   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+
+}
+
+.fa-sun {
+    font-size: 40px;
+    padding-left: 100px;
+    color: #ccafaf;
+
+}
