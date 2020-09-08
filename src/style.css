@@ -1,9 +1,15 @@
+.units {
+    font-size: 12px;
+    font-family: 'Tenor Sans', sans-serif;
+    
+}
 
 h1 {
-    padding-left: 60px;
+    padding-left: 50px;
     color: #cb3737;
-    padding-top: 40px;
+    padding-top: 20px;
     font-family: milestone free version;
+    font-size: 70px;
     
 }
 
@@ -34,7 +40,7 @@ ul{
     padding-top: 5px;
     color: #ccafaf;
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Tenor Sans', sans-serif;
 }
 
@@ -44,11 +50,6 @@ small {
     font-family: 'Tenor Sans', sans-serif;
 }
 
-.units {
-    font-size: 20px;
-    font-family: 'Tenor Sans', sans-serif;
-    
-}
 
 .weather-app {
     max-width: 750px;
@@ -66,5 +67,6 @@ small {
     font-size: 40px;
     padding-left: 100px;
     color: #ccafaf;
+    padding-top: 50px;
 
 }
