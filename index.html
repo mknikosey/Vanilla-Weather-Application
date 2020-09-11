@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="src/style.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Weather Application</title>
 </head>
 <body>
@@ -17,15 +18,15 @@
 
 <div class="row">
         <div class="col">
-        <h2>
+        <h2 id="city">
             Boston, USA
         </h2>
         <h3>
             <ul>
-                <li>
+                <li id="day">
                     Tuesday
                 </li>
-                <li>
+                <li id="time">
                     4:30pm
                 </li>
             </ul>
@@ -35,7 +36,7 @@
         <div class="col">
             <i class="fas fa-sun"></i>
         <h1>
-            <strong>85</strong>
+            <strong id="temperature">85</strong>
             <span class="units"><a href="#">°F</a> | <a href="#">°C</a></span>
         </h1>
 
@@ -45,19 +46,17 @@
         </div>
 
         <div class="col">
-            <h4>
+            <h4 id="description">
                 Sunny
             </h4>
             <h5>
                 <ul>
+
                     <li>
-                        Precipication: 0 %
+                        Humidity: <span id="humidity"> </span> %
                     </li>
-                    <li>
-                        Humidity: 50 %
-                    </li>
-                    <li>
-                        Wind: 2 mph
+                    <li id="wind">
+                        Wind:<span id="wind"> </span> mph
                     </li>
                 </ul>
                 </h5>
