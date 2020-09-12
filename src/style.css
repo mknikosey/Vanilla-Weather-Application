@@ -9,7 +9,7 @@ h1 {
     color: #cb3737;
     padding-top: 60px;
     font-family: milestone free version;
-    font-size: 70px;
+    font-size: 80px;
     
 }
 
@@ -32,7 +32,7 @@ h3 {
 h4 {
     color:  #cb3737;
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-left: 50px;
     font-family: milestone free version;
 }
@@ -73,6 +73,7 @@ small {
     font-family: 'Tenor Sans', sans-serif;
 }
 
-.icon {
+img {
     padding-left: 60px;
+
 }
