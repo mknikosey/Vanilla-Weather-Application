@@ -81,3 +81,19 @@ img {
 }
 
 
+.weather-forecast {
+    margin-top: 80px;
+}
+
+.weather-forecast h3 {
+
+}
+
+.weather-forecast img {
+   
+   height: 40px;
+   width: 40px;
+
+
+
+}
