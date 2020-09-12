@@ -41,6 +41,8 @@ function displayTemperature(response) {
         `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     );
     iconElement.setAttribute("alt", response.data.weather[0].description);
+
+    fahrenheitTemperature = response.data.main.temp;
 }
 
 
@@ -59,10 +61,37 @@ function handleSubmit(event) {
 
 }
 
+function displayFahrenheitTemperature(event) {
+    event.preventDefault();
+    let temperatureElement = document.querySelector("#temperature");
+    temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+
+
+}
+
+function displayCelciusTemperature(event) {
+    event.preventDefault();
+    let temperatureElement = document.querySelector("#temperature");
+    let celciusTemperature = ((fahrenheitTemperature - 32) * 5 / 9);
+    temperatureElement.innerHTML = Math.round(celciusTemperature);
+}
+
 
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+
+let celciusLink = document.querySelector("#celcius-link");
+celciusLink.addEventListener("click", displayCelciusTemperature);
+
+
+
+search("Boston");
 
 
 
