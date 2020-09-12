@@ -44,16 +44,27 @@ function displayTemperature(response) {
 }
 
 
+function search(city) {
+    let apiKey = "613c0e173ab2e750c5de3e90ad00ac92";
+    let units = "imperial";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
+    axios.get(apiUrl).then(displayTemperature);
+
+}
+
+function handleSubmit(event) {
+    event.preventDefault();
+    let cityInputElement = document.querySelector("#city-input");
+    search(cityInputElement.value);
+
+}
 
 
-let apiKey = "613c0e173ab2e750c5de3e90ad00ac92";
-let apiUnits = "imperial";
-let city = "New York";
-let units = "imperial";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
 
 
-axios.get(apiUrl).then(displayTemperature);
 
 
 

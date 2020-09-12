@@ -70,3 +70,11 @@ small {
     padding-top: 50px;
 
 }
+
+.btn-light {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.form-control {
+    font-family: 'Tenor Sans', sans-serif;
+}
