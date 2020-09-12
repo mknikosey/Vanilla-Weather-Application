@@ -18,7 +18,7 @@
 
  <form id="search-form" class="mb-3">
      <div class="row">
-     <div class="col-9">
+     <div class="col-5">
     <input 
     type="search"
     placeholder="Enter a city name..."
@@ -45,43 +45,54 @@
         </h2>
         <h3>
             <ul>
-                <li id="day">
+                <li id="day" class="day-time-line">
                     
                 </li>    
 
             </ul>
         </h3>
         </div>
+    </div>       
 
-    <div class="col">
+  <div class="row">
+    <div class="col-4">
         <h1>
             <strong id="temperature"></strong>
             <span class="units"><a href="#" id="fahrenheit-link">°F</a> | <a href="#" id="celcius-link">°C</a></span>
         </h1>
-
-    <img src="" ; id="icon" ; alt="" />
+        <h4 id="description">
+        
+        </h4>
 
 
        
         </div>
-        <div class="col">
+
+        <div class="col-4">
+            <img src="" ; id="icon" ; alt="" />
+        </div>
+        
+
+
+        <div class="col-4">
             <h4 id="description">
                 
             </h4>
             <h5>
                 <ul>
-
+                
                     <li>
-                        Humidity: <span id="humidity"> </span> %
+                        Humidity: <span id="humidity" class="hum"> </span> %
                     </li>
                     <li>
-                        Wind: <span id="wind"> </span> mph
+                        Wind: <span id="wind" class="wind"> </span> mph
                     </li>
                 </ul>
                 </h5>
     
         </div>
         </div>
+   
 <div class="row weather-forecast" id="forecast">
 
 <div class="col-2">
@@ -92,6 +103,7 @@
     <div class="weather-forecast-temperature">
         <strong>22°</strong> 17°
     </div>
+</div>
 </div>
 
 

@@ -6,19 +6,18 @@
 
 h1 {
     padding-left: 50px;
-    color: #cb3737;
-    padding-top: 60px;
-    font-family: milestone free version;
-    font-size: 80px;
+    color: #ccafaf;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 60px;
     
 }
 
 h2 {
     font-family: milestone free version;
     padding-top: 30px;
-    padding-left: 45px;
     color: #cb3737;
     font-size: 40px;
+    text-align: center;
 }
 
 h3 {
@@ -31,18 +30,30 @@ h3 {
 
 h4 {
     color:  #cb3737;
-    font-size: 40px;
-    padding-top: 35px;
+    font-size: 25px;
+    padding-top: 5px;
     padding-left: 50px;
     font-family: milestone free version;
 }
 
 ul{
     padding-top: 5px;
-    color: #ccafaf;
+    color: #cb3737;
     list-style: none;
-    font-size: 18px;
-    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    font-family: milestone free version;
+    padding-right: 40px;
+}
+
+.hum {
+    color:#cb3737;
+}
+
+.wind {
+    color: #cb3737;
+
+
 }
 
 small {
@@ -54,6 +65,7 @@ small {
 
 .weather-app {
     max-width: 750px;
+    max-height: 700px;
     margin: 30px auto;
     padding: 20px;
     padding-bottom: 400px;
@@ -67,7 +79,7 @@ small {
 
 .btn-light {
     font-family: 'Tenor Sans', sans-serif;
-    border-radius: 20px;
+    border-radius: 50px;
 
 }
 
@@ -86,6 +98,7 @@ img {
 }
 
 .weather-forecast h3 {
+    font-family: milestone free version;
 
 }
 
@@ -94,6 +107,18 @@ img {
    height: 40px;
    width: 40px;
 
+}
+
+.weather-forecast-temperature {
+    font-family: 'Tenor Sans', sans-serif;
+    color: #cb3737;
+}
+
+.day-time-line {
+     color: #ccafaf;
+    font-size: 20px;
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
 
 
 }
