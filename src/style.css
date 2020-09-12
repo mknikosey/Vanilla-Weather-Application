@@ -7,7 +7,7 @@
 h1 {
     padding-left: 50px;
     color: #cb3737;
-    padding-top: 20px;
+    padding-top: 60px;
     font-family: milestone free version;
     font-size: 70px;
     
@@ -15,7 +15,8 @@ h1 {
 
 h2 {
     font-family: milestone free version;
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-left: 45px;
     color: #cb3737;
     font-size: 40px;
 }
@@ -32,7 +33,7 @@ h4 {
     color:  #cb3737;
     font-size: 40px;
     padding-top: 40px;
-    padding-left: 80px;
+    padding-left: 50px;
     font-family: milestone free version;
 }
 
@@ -63,13 +64,6 @@ small {
 
 }
 
-.fa-sun {
-    font-size: 40px;
-    padding-left: 100px;
-    color: #ccafaf;
-    padding-top: 50px;
-
-}
 
 .btn-light {
     font-family: 'Tenor Sans', sans-serif;
@@ -77,4 +71,8 @@ small {
 
 .form-control {
     font-family: 'Tenor Sans', sans-serif;
+}
+
+.icon {
+    padding-left: 60px;
 }
