@@ -67,6 +67,8 @@ small {
 
 .btn-light {
     font-family: 'Tenor Sans', sans-serif;
+    border-radius: 20px;
+
 }
 
 .form-control {
@@ -77,3 +79,5 @@ img {
     padding-left: 60px;
 
 }
+
+
