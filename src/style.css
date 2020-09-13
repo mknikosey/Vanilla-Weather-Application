@@ -32,29 +32,21 @@ h4 {
     color:  #cb3737;
     font-size: 25px;
     padding-top: 5px;
-    padding-left: 50px;
+    padding-left: 60px;
     font-family: milestone free version;
 }
 
 ul{
     padding-top: 5px;
-    color: #cb3737;
+    color: #ccafaf;
     list-style: none;
     font-size: 20px;
     text-align: right;
     font-family: milestone free version;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
-.hum {
-    color:#cb3737;
-}
 
-.wind {
-    color: #cb3737;
-
-
-}
 
 small {
     max-width: 30px;
