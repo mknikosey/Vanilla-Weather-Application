@@ -31,7 +31,7 @@ h3 {
 h4 {
     color:  #cb3737;
     font-size: 25px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 60px;
     font-family: milestone free version;
 }
@@ -43,7 +43,7 @@ ul{
     font-size: 20px;
     text-align: right;
     font-family: milestone free version;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 
@@ -81,8 +81,8 @@ small {
 }
 
 img {
-    padding-left: 60px;
-
+    margin: 0 auto;
+    display: block;
 }
 
 
