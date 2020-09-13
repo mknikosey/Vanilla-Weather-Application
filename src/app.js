@@ -59,7 +59,6 @@ function displayForecast(response) {
         <strong>
         ${Math.round(forecast.main.temp_max)}°
         </strong> 
-        ${Math.round(forecast.main.temp_min)}°
         </div>
     </div>
     `; }

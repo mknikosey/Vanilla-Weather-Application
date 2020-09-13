@@ -92,11 +92,11 @@ img {
 
 .weather-forecast h3 {
     font-family: milestone free version;
+    text-align: center;
 
 }
 
 .weather-forecast img {
-   
    height: 40px;
    width: 40px;
 
@@ -105,6 +105,7 @@ img {
 .weather-forecast-temperature {
     font-family: 'Tenor Sans', sans-serif;
     color: #cb3737;
+    text-align: center;
 }
 
 .day-time-line {
