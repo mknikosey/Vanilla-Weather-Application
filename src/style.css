@@ -7,7 +7,7 @@
 h1 {
     padding-left: 50px;
     color: #ccafaf;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: milestone free version;
     font-size: 60px;
     
 }
@@ -40,9 +40,9 @@ ul{
     padding-top: 5px;
     color: #ccafaf;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     text-align: right;
-    font-family: milestone free version;
+    font-family: 'Tenor Sans', sans-serif;
     padding-right: 50px;
 }
 
@@ -115,4 +115,8 @@ img {
     text-align: center;
 
 
+}
+
+.my-name {
+    font-family: milestone free version;
 }
