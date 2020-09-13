@@ -5,6 +5,7 @@ function formatDate (timestamp) {
     return `${day} ${formatHours(timestamp)}`;
 
 }
+
  function formatHours(timestamp) {
      let date = new Date(timestamp);
      let hours = date.getHours();
@@ -17,11 +18,6 @@ function formatDate (timestamp) {
      };
      return `${hours}:${minutes}`;
  }
-
-
-
-
-
 
 function displayTemperature(response) {
     let temperatureElement = document.querySelector("#temperature");
@@ -46,7 +42,6 @@ function displayTemperature(response) {
     fahrenheitTemperature = response.data.main.temp;
 }
 
-
 function displayForecast(response) {
     let forecastElement = document.querySelector("#forecast");
     forecastElement.innerHTML = null;
@@ -70,7 +65,6 @@ function displayForecast(response) {
     `; }
 }
 
-
 function search(city) {
     let apiKey = "613c0e173ab2e750c5de3e90ad00ac92";
     let units = "imperial";
@@ -80,21 +74,16 @@ function search(city) {
     apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(displayForecast); }
 
-
-
 function handleSubmit(event) {
     event.preventDefault();
     let cityInputElement = document.querySelector("#city-input");
     search(cityInputElement.value);
-
 }
 
 function displayFahrenheitTemperature(event) {
     event.preventDefault();
     let temperatureElement = document.querySelector("#temperature");
     temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-
-
 }
 
 function displayCelciusTemperature(event) {
@@ -104,19 +93,13 @@ function displayCelciusTemperature(event) {
     temperatureElement.innerHTML = Math.round(celciusTemperature);
 }
 
-
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-
 let celciusLink = document.querySelector("#celcius-link");
 celciusLink.addEventListener("click", displayCelciusTemperature);
-
-
 
 search("Boston");

@@ -51,13 +51,14 @@ ul{
 small {
     max-width: 30px;
     text-align: center;
+    padding-left: 300px;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 
 .weather-app {
     max-width: 750px;
-    max-height: 700px;
+    max-height: 625px;
     margin: 30px auto;
     padding: 20px;
     padding-bottom: 400px;
